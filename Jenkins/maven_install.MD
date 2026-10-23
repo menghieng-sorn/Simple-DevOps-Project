@@ -22,7 +22,7 @@ Maven is a code build tool which used to convert your code to an artifact. this 
    ```
    vi ~/.bash_profile
    ```
-```
+   ```
 
 # .bash_profile
 
@@ -58,8 +58,8 @@ export M2=$M2_HOME/bin
 # User-specific environment and startup programs
 export PATH=$PATH:$HOME/bin:$JAVA_HOME/bin:$M2_HOME/bin
 
-```
-```
+   ```
+   ```
 source ~/.bash_profile
 ```
 #### Checkpoint 
