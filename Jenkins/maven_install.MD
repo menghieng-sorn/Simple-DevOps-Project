@@ -21,12 +21,47 @@ Maven is a code build tool which used to convert your code to an artifact. this 
 1. Setup M2_HOME and M2 paths in .bash_profile of the user and add these to the path variable
    ```
    vi ~/.bash_profile
-   M2_HOME=/opt/maven
-   M2=$M2_HOME/bin
-   JAVA_HOME=/usr/lib/jvm/java-21-openjdk-21.0.12.1.1-1.2.el9.x86_64
-   PATH=$PATH:$HOME/bin:$JAVA_HOME:$M2_HOME:$M2
-   export PATH
    ```
+```
+
+# .bash_profile
+
+# Get the aliases and functions
+if [ -f ~/.bashrc ]; then
+    . ~/.bashrc
+fi
+
+# Java configuration
+export JAVA_HOME=/usr/lib/jvm/java-21-openjdk-21.0.12.1.1-1.2.el9.x86_64
+
+# Maven configuration
+export M2_HOME=/opt/maven
+export M2=$M2_HOME/bin
+
+# User-specific environment and startup programs
+export PATH=$PATH:$HOME/bin:$JAVA_HOME/bin:$M2_HOME/bin
+
+# .bash_profile
+
+# Get the aliases and functions
+if [ -f ~/.bashrc ]; then
+    . ~/.bashrc
+fi
+
+# Java configuration
+export JAVA_HOME=/usr/lib/jvm/java-21-openjdk-21.0.12.1.1-1.2.el9.x86_64
+
+# Maven configuration
+export M2_HOME=/opt/maven
+export M2=$M2_HOME/bin
+
+# User-specific environment and startup programs
+export PATH=$PATH:$HOME/bin:$JAVA_HOME/bin:$M2_HOME/bin
+
+```
+```
+source ~/.bash_profile
+```
 #### Checkpoint 
 1. logoff and login to check maven version
   
