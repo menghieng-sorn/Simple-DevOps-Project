@@ -23,43 +23,40 @@ Maven is a code build tool which used to convert your code to an artifact. this 
    vi ~/.bash_profile
    ```
    ```
-
-# .bash_profile
-
-# Get the aliases and functions
-if [ -f ~/.bashrc ]; then
-    . ~/.bashrc
-fi
-
-# Java configuration
-export JAVA_HOME=/usr/lib/jvm/java-21-openjdk-21.0.12.1.1-1.2.el9.x86_64
-
-# Maven configuration
-export M2_HOME=/opt/maven
-export M2=$M2_HOME/bin
-
-# User-specific environment and startup programs
-export PATH=$PATH:$HOME/bin:$JAVA_HOME/bin:$M2_HOME/bin
-
-# .bash_profile
-
-# Get the aliases and functions
-if [ -f ~/.bashrc ]; then
-    . ~/.bashrc
-fi
-
-# Java configuration
-export JAVA_HOME=/usr/lib/jvm/java-21-openjdk-21.0.12.1.1-1.2.el9.x86_64
-
-# Maven configuration
-export M2_HOME=/opt/maven
-export M2=$M2_HOME/bin
-
-# User-specific environment and startup programs
-export PATH=$PATH:$HOME/bin:$JAVA_HOME/bin:$M2_HOME/bin
-
-   ```
-   ```
+	# .bash_profile
+	
+	# Get the aliases and functions
+	if [ -f ~/.bashrc ]; then
+	    . ~/.bashrc
+	fi
+	
+	# Java configuration
+	export JAVA_HOME=/usr/lib/jvm/java-21-openjdk-21.0.12.1.1-1.2.el9.x86_64
+	
+	# Maven configuration
+	export M2_HOME=/opt/maven
+	export M2=$M2_HOME/bin
+	
+	# User-specific environment and startup programs
+	export PATH=$PATH:$HOME/bin:$JAVA_HOME/bin:$M2_HOME/bin
+	
+	# .bash_profile
+	
+	# Get the aliases and functions
+	if [ -f ~/.bashrc ]; then
+	    . ~/.bashrc
+	fi
+	
+	# Java configuration
+	export JAVA_HOME=/usr/lib/jvm/java-21-openjdk-21.0.12.1.1-1.2.el9.x86_64
+	
+	# Maven configuration
+	export M2_HOME=/opt/maven
+	export M2=$M2_HOME/bin
+	
+	# User-specific environment and startup programs
+	export PATH=$PATH:$HOME/bin:$JAVA_HOME/bin:$M2_HOME/bin
+ ```
 source ~/.bash_profile
 ```
 #### Checkpoint 
